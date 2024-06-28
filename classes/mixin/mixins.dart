@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 void main(List<String>args){
   final person = Person();
   person.Walk(speed: 7.9);
