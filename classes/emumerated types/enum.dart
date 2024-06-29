@@ -13,9 +13,11 @@ void main(List<String> args) {
     case AnimalType.cat:
     print("Woof is a cat");
      
+    case AnimalType.goat:
+      // TODO: Handle this case.
   }
 }
-enum AnimalType{ rabbit, dog, cat,}
+enum AnimalType{ rabbit, dog, cat, goat}
 
 class Animal{
 
